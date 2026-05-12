@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.camerax.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_record_button.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/record_button.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_stop_button.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/stop_button.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_capture_button.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/capture_button.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.camerax.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.camerax.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.camerax.app-debug-4:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.camerax.app-main-6:/mipmap-xhdpi/ic_launcher_round.xml"
+    }
+]
