@@ -7,11 +7,11 @@ INJECTED from D:\.ljx\rjxmyfsj\experience4\app\src\main\AndroidManifest.xml:2:1-
 MERGED from [androidx.databinding:viewbinding:8.6.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\2d90869714d60ab0ac63554b2ab745e9\transformed\jetified-viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f0ee5e8e30b01b4b015659367588beef\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\fd65162cc760a37204b157e1bbdf1d8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.camera:camera-video:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9d69fb422b4980fd75a3d8b014539f34\transformed\jetified-camera-video-1.3.4\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.camera:camera-lifecycle:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\49bf08751e6b32ec8b16f1567790631e\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-view:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4887985eadb051bdc427e8d34c39423\transformed\jetified-camera-view-1.3.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-video:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\b5a0d7072fda863a4e212448f080c5e0\transformed\jetified-camera-video-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\460c2d0317a7b7f9c0c13c70c58bed9f\transformed\jetified-camera-lifecycle-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\8c26edcc114f14da9fae0bbd95a84dd8\transformed\jetified-camera-view-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e3a684dca4401738bbdb052c771b2116\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\8bb40586cd07ff55832b1f6875565233\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\56abd7939175207db15ffeb4e43fa60f\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
@@ -39,15 +39,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] D:\gradle\gradle-8.13\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\74f94b07cf73f6bda3bbfe513cb2456d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\39a5f58919966b0836fdbf80c7ba9c15\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\bd3c0a77a5a428f60d044d9a30d6c0f1\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\234f471370e638bd71b52c79bb3879f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f80639980f1c43d3680a3e675cf5d5d9\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4d591498ac4c0567d3bf82426d8a58f\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e1017fb76ec9bd958ec4fb4b676fe5cc\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\866ea0f609384890d0ae1384b289ded5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\0324f9c29661b7463ebb3a3738b7f469\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\11dbc7da49503e6ad1c2276d37c9ca87\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\978d52b807d7bab7d07685522e7ea578\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\31b5c62ff30b67848b507d18f4bbfed6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e12302537427d1b5c5534088e6c0403f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\6329f057ace1eac3d164127d94092b61\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\158c4052dfa230db626b7a638545f234\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -99,10 +100,10 @@ MERGED from [com.google.android.material:material:1.12.0] D:\gradle\gradle-8.13\
 MERGED from [com.google.android.material:material:1.12.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f0ee5e8e30b01b4b015659367588beef\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\fd65162cc760a37204b157e1bbdf1d8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\fd65162cc760a37204b157e1bbdf1d8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\286565918e9b63436ea2010b50ef3030\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\286565918e9b63436ea2010b50ef3030\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.13.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\5f6370210f7bd5f0befd3c432aecdcf3\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
@@ -111,10 +112,10 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\gradle\gradle-8.13\c
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\4892995b7f189d823ee37f857e386162\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4d591498ac4c0567d3bf82426d8a58f\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4d591498ac4c0567d3bf82426d8a58f\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
 		INJECTED from D:\.ljx\rjxmyfsj\experience4\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
@@ -163,16 +164,16 @@ MERGED from [com.google.android.material:material:1.12.0] D:\gradle\gradle-8.13\
 MERGED from [com.google.android.material:material:1.12.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f0ee5e8e30b01b4b015659367588beef\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\fd65162cc760a37204b157e1bbdf1d8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\fd65162cc760a37204b157e1bbdf1d8f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.camera:camera-video:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9d69fb422b4980fd75a3d8b014539f34\transformed\jetified-camera-video-1.3.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.camera:camera-video:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9d69fb422b4980fd75a3d8b014539f34\transformed\jetified-camera-video-1.3.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\49bf08751e6b32ec8b16f1567790631e\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\49bf08751e6b32ec8b16f1567790631e\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-view:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4887985eadb051bdc427e8d34c39423\transformed\jetified-camera-view-1.3.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.camera:camera-view:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4887985eadb051bdc427e8d34c39423\transformed\jetified-camera-view-1.3.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\b5a0d7072fda863a4e212448f080c5e0\transformed\jetified-camera-video-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\b5a0d7072fda863a4e212448f080c5e0\transformed\jetified-camera-video-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\460c2d0317a7b7f9c0c13c70c58bed9f\transformed\jetified-camera-lifecycle-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\460c2d0317a7b7f9c0c13c70c58bed9f\transformed\jetified-camera-lifecycle-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\8c26edcc114f14da9fae0bbd95a84dd8\transformed\jetified-camera-view-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\8c26edcc114f14da9fae0bbd95a84dd8\transformed\jetified-camera-view-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e3a684dca4401738bbdb052c771b2116\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e3a684dca4401738bbdb052c771b2116\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\8bb40586cd07ff55832b1f6875565233\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
@@ -227,12 +228,18 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\gradle\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\39a5f58919966b0836fdbf80c7ba9c15\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\bd3c0a77a5a428f60d044d9a30d6c0f1\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\bd3c0a77a5a428f60d044d9a30d6c0f1\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\234f471370e638bd71b52c79bb3879f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\234f471370e638bd71b52c79bb3879f9\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f80639980f1c43d3680a3e675cf5d5d9\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\f80639980f1c43d3680a3e675cf5d5d9\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4d591498ac4c0567d3bf82426d8a58f\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\a4d591498ac4c0567d3bf82426d8a58f\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e1017fb76ec9bd958ec4fb4b676fe5cc\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e1017fb76ec9bd958ec4fb4b676fe5cc\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\866ea0f609384890d0ae1384b289ded5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\866ea0f609384890d0ae1384b289ded5\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\c704c9cba60ba86e5e7b04f1e8f7e6e5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\0324f9c29661b7463ebb3a3738b7f469\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\0324f9c29661b7463ebb3a3738b7f469\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\11dbc7da49503e6ad1c2276d37c9ca87\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
@@ -241,10 +248,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] D:\gradle\gradle-8.13\cac
 MERGED from [androidx.interpolator:interpolator:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\978d52b807d7bab7d07685522e7ea578\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\9228f50af32f2a0d253c84bb132a7c0d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\93cf7a991a9bd26741ce733d74c12a83\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\31b5c62ff30b67848b507d18f4bbfed6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\31b5c62ff30b67848b507d18f4bbfed6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e12302537427d1b5c5534088e6c0403f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\e12302537427d1b5c5534088e6c0403f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\6329f057ace1eac3d164127d94092b61\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -258,25 +261,25 @@ MERGED from [androidx.print:print:1.0.0] D:\gradle\gradle-8.13\caches\9.0-milest
 	android:minSdkVersion
 		INJECTED from D:\.ljx\rjxmyfsj\experience4\app\src\main\AndroidManifest.xml
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
-MERGED from [androidx.camera:camera-core:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\3fafc2c811d949d5b2773877cb716b32\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\26455cd8fcbcd1d0e47bcf3cf44216a2\transformed\jetified-camera-core-1.4.0\AndroidManifest.xml:29:9-33:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:29:13-31
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:29:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:26:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:28:13-75
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:28:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:25:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:30:13-32:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.3.4] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\073b6d37166cfaceada943e9231c7cd4\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+		ADDED from [androidx.camera:camera-camera2:1.4.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\cb6e4e9e493d4974f40c2b28d10c7a9e\transformed\jetified-camera-camera2-1.4.0\AndroidManifest.xml:31:17-103
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\286565918e9b63436ea2010b50ef3030\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] D:\gradle\gradle-8.13\caches\9.0-milestone-1\transforms\4892995b7f189d823ee37f857e386162\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20

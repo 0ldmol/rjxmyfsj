@@ -72,6 +72,10 @@
         "source": "com.example.camerax.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.camerax.app-debug-4:/drawable_pause_button.xml.flat",
+        "source": "com.example.camerax.app-main-6:/drawable/pause_button.xml"
+    },
+    {
         "merged": "com.example.camerax.app-debug-4:/mipmap-xxhdpi_ic_launcher.xml.flat",
         "source": "com.example.camerax.app-main-6:/mipmap-xxhdpi/ic_launcher.xml"
     },

@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.camera.view.PreviewView;
@@ -26,25 +25,25 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnCapture;
 
   @NonNull
+  public final Button btnPause;
+
+  @NonNull
   public final Button btnRecord;
 
   @NonNull
   public final ImageView ivPreview;
 
   @NonNull
-  public final TextView tvAnalysis;
-
-  @NonNull
   public final PreviewView viewFinder;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnCapture,
-      @NonNull Button btnRecord, @NonNull ImageView ivPreview, @NonNull TextView tvAnalysis,
+      @NonNull Button btnPause, @NonNull Button btnRecord, @NonNull ImageView ivPreview,
       @NonNull PreviewView viewFinder) {
     this.rootView = rootView;
     this.btnCapture = btnCapture;
+    this.btnPause = btnPause;
     this.btnRecord = btnRecord;
     this.ivPreview = ivPreview;
-    this.tvAnalysis = tvAnalysis;
     this.viewFinder = viewFinder;
   }
 
@@ -81,6 +80,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnPause;
+      Button btnPause = ViewBindings.findChildViewById(rootView, id);
+      if (btnPause == null) {
+        break missingId;
+      }
+
       id = R.id.btnRecord;
       Button btnRecord = ViewBindings.findChildViewById(rootView, id);
       if (btnRecord == null) {
@@ -93,20 +98,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvAnalysis;
-      TextView tvAnalysis = ViewBindings.findChildViewById(rootView, id);
-      if (tvAnalysis == null) {
-        break missingId;
-      }
-
       id = R.id.viewFinder;
       PreviewView viewFinder = ViewBindings.findChildViewById(rootView, id);
       if (viewFinder == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnCapture, btnRecord, ivPreview,
-          tvAnalysis, viewFinder);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnCapture, btnPause, btnRecord,
+          ivPreview, viewFinder);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

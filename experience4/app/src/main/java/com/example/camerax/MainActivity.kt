@@ -16,52 +16,81 @@ import androidx.camera.core.ImageCapture
 import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
+import androidx.camera.video.FileOutputOptions
+import androidx.camera.video.PendingRecording
+import androidx.camera.video.Recorder
+import androidx.camera.video.Recording
+import androidx.camera.video.VideoCapture
+import androidx.camera.video.VideoRecordEvent
 import androidx.camera.view.PreviewView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Locale
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var viewFinder: PreviewView
     private lateinit var btnCapture: Button
+    private lateinit var btnRecord: Button
+    private lateinit var btnPause: Button
     private lateinit var ivPreview: ImageView
 
     private var imageCapture: ImageCapture? = null
+    private var videoCapture: VideoCapture<Recorder>? = null
+    private var recording: Recording? = null
+    private var pendingRecording: PendingRecording? = null
+    private var isRecordingPaused = false
+
+    private lateinit var cameraExecutor: ExecutorService
 
     private val REQUEST_CODE_PERMISSIONS = 10
     private val REQUIRED_PERMISSIONS = arrayOf(
-        Manifest.permission.CAMERA
+        Manifest.permission.CAMERA,
+        Manifest.permission.RECORD_AUDIO
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewFinder = findViewById(R.id.viewFinder)
-        btnCapture = findViewById(R.id.btnCapture)
-        ivPreview = findViewById(R.id.ivPreview)
-
-        // 暂时隐藏录像按钮和分析文本
-        val btnRecord: Button = findViewById(R.id.btnRecord)
-        val tvAnalysis = findViewById<View>(R.id.tvAnalysis)
-        btnRecord.visibility = View.GONE
-        tvAnalysis.visibility = View.GONE
+        initViews()
+        setupClickListeners()
 
         if (allPermissionsGranted()) {
             startCamera()
         } else {
-            ActivityCompat.requestPermissions(
-                this, REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSIONS
-            )
+            requestPermissions()
         }
+    }
 
+    private fun initViews() {
+        viewFinder = findViewById(R.id.viewFinder)
+        btnCapture = findViewById(R.id.btnCapture)
+        btnRecord = findViewById(R.id.btnRecord)
+        btnPause = findViewById(R.id.btnPause)
+        ivPreview = findViewById(R.id.ivPreview)
+
+        btnPause.visibility = View.GONE
+    }
+
+    private fun setupClickListeners() {
         btnCapture.setOnClickListener { takePhoto() }
+        btnRecord.setOnClickListener { captureVideo() }
+        btnPause.setOnClickListener { togglePauseRecording() }
     }
 
     private fun allPermissionsGranted() = REQUIRED_PERMISSIONS.all {
         ContextCompat.checkSelfPermission(baseContext, it) == PackageManager.PERMISSION_GRANTED
+    }
+
+    private fun requestPermissions() {
+        ActivityCompat.requestPermissions(
+            this, REQUIRED_PERMISSIONS, REQUEST_CODE_PERMISSIONS
+        )
     }
 
     override fun onRequestPermissionsResult(
@@ -85,37 +114,34 @@ class MainActivity : AppCompatActivity() {
 
             val preview = Preview.Builder()
                 .build()
-                .also {
-                    it.setSurfaceProvider(viewFinder.surfaceProvider)
-                }
+                .also { it.setSurfaceProvider(viewFinder.surfaceProvider) }
 
             imageCapture = ImageCapture.Builder()
                 .setCaptureMode(ImageCapture.CAPTURE_MODE_MINIMIZE_LATENCY)
                 .build()
 
+            val recorder = Recorder.Builder().build()
+            videoCapture = VideoCapture.withOutput(recorder)
+
             val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
 
             try {
                 cameraProvider.unbindAll()
-
                 cameraProvider.bindToLifecycle(
-                    this, cameraSelector, preview, imageCapture
+                    this, cameraSelector, preview, imageCapture, videoCapture
                 )
-
             } catch (exc: Exception) {
-                Log.e(TAG, "Use case binding failed", exc)
+                Log.e(TAG, "Camera binding failed", exc)
             }
         }, ContextCompat.getMainExecutor(this))
+
+        cameraExecutor = Executors.newSingleThreadExecutor()
     }
 
     private fun takePhoto() {
         val imageCapture = imageCapture ?: return
 
-        val photoFile = File(
-            externalMediaDirs.firstOrNull(),
-            SimpleDateFormat(FILENAME_FORMAT, Locale.CHINA).format(System.currentTimeMillis()) + ".jpg"
-        )
-
+        val photoFile = createImageFile()
         val outputOptions = ImageCapture.OutputFileOptions.Builder(photoFile).build()
 
         imageCapture.takePicture(
@@ -128,15 +154,108 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onImageSaved(output: ImageCapture.OutputFileResults) {
                     val savedUri = Uri.fromFile(photoFile)
-                    val msg = "Photo saved: $savedUri"
-                    Log.d(TAG, msg)
-
-                    val bitmap = BitmapFactory.decodeFile(photoFile.absolutePath)
-                    ivPreview.setImageBitmap(bitmap)
-                    ivPreview.visibility = View.VISIBLE
+                    Log.d(TAG, "Photo saved: $savedUri")
+                    showPreviewImage(photoFile)
                 }
             }
         )
+    }
+
+    private fun createImageFile(): File {
+        val timeStamp = SimpleDateFormat(FILENAME_FORMAT, Locale.CHINA).format(System.currentTimeMillis())
+        return File(externalMediaDirs.firstOrNull(), "${timeStamp}.jpg")
+    }
+
+    private fun showPreviewImage(file: File) {
+        val bitmap = BitmapFactory.decodeFile(file.absolutePath)
+        ivPreview.setImageBitmap(bitmap)
+        ivPreview.visibility = View.VISIBLE
+    }
+
+    private fun captureVideo() {
+        val videoCapture = this.videoCapture ?: return
+
+        val currentRecording = recording
+        if (currentRecording != null) {
+            stopRecording()
+            return
+        }
+
+        startRecording(videoCapture)
+    }
+
+    private fun startRecording(videoCapture: VideoCapture<Recorder>) {
+        val videoFile = createVideoFile()
+        val outputOptions = FileOutputOptions.Builder(videoFile).build()
+
+        pendingRecording = videoCapture.output.prepareRecording(this, outputOptions)
+
+        recording = pendingRecording?.start(ContextCompat.getMainExecutor(this)) { event ->
+            when (event) {
+                is VideoRecordEvent.Start -> {
+                    btnRecord.text = "停止"
+                    btnRecord.setBackgroundResource(R.drawable.stop_button)
+                    btnPause.visibility = View.VISIBLE
+                    btnCapture.isEnabled = false
+                }
+                is VideoRecordEvent.Finalize -> {
+                    handleRecordingFinalize(event)
+                }
+            }
+        }
+    }
+
+    private fun createVideoFile(): File {
+        val timeStamp = SimpleDateFormat(FILENAME_FORMAT, Locale.CHINA).format(System.currentTimeMillis())
+        return File(externalMediaDirs.firstOrNull(), "${timeStamp}.mp4")
+    }
+
+    private fun handleRecordingFinalize(event: VideoRecordEvent.Finalize) {
+        recording = null
+        pendingRecording = null
+        btnRecord.isEnabled = true
+        btnRecord.text = "录像"
+        btnRecord.setBackgroundResource(R.drawable.record_button)
+        btnPause.visibility = View.GONE
+        btnCapture.isEnabled = true
+        isRecordingPaused = false
+
+        if (event.hasError()) {
+            Log.e(TAG, "Video capture failed: ${event.error}")
+        } else {
+            Log.d(TAG, "Video saved: ${event.outputResults.outputUri}")
+        }
+    }
+
+    private fun stopRecording() {
+        recording?.stop()
+        recording = null
+        pendingRecording = null
+        btnRecord.isEnabled = true
+        btnRecord.text = "录像"
+        btnRecord.setBackgroundResource(R.drawable.record_button)
+        btnPause.visibility = View.GONE
+        btnCapture.isEnabled = true
+        isRecordingPaused = false
+    }
+
+    private fun togglePauseRecording() {
+        recording ?: return
+
+        if (isRecordingPaused) {
+            recording?.resume()
+            btnPause.text = "暂停"
+            isRecordingPaused = false
+        } else {
+            recording?.pause()
+            btnPause.text = "继续"
+            isRecordingPaused = true
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        cameraExecutor.shutdown()
     }
 
     companion object {

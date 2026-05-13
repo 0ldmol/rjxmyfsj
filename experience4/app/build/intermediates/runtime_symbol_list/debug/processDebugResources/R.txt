@@ -2112,6 +2112,7 @@ int color teal_700 0x7f05030b
 int color tooltip_background_dark 0x7f05030c
 int color tooltip_background_light 0x7f05030d
 int color white 0x7f05030e
+int color yellow 0x7f05030f
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002
@@ -3104,6 +3105,7 @@ int drawable notification_template_icon_bg 0x7f0700e1
 int drawable notification_template_icon_low_bg 0x7f0700e2
 int drawable notification_tile_bg 0x7f0700e3
 int drawable notify_panel_notification_icon_bg 0x7f0700e4
+int drawable pause_button 0x7f0700ea
 int drawable record_button 0x7f0700e5
 int drawable stop_button 0x7f0700e6
 int drawable test_level_drawable 0x7f0700e7
@@ -3208,6 +3210,7 @@ int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
 int id btnCapture 0x7f080062
+int id btnPause 0x7f0801fe
 int id btnRecord 0x7f080063
 int id buttonPanel 0x7f080064
 int id cache_measures 0x7f080065
@@ -3594,7 +3597,6 @@ int id transition_position 0x7f0801e1
 int id transition_scene_layoutid_cache 0x7f0801e2
 int id transition_transform 0x7f0801e3
 int id triangle 0x7f0801e4
-int id tvAnalysis 0x7f0801e5
 int id unchecked 0x7f0801e6
 int id uniform 0x7f0801e7
 int id unlabeled 0x7f0801e8

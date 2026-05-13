@@ -21,31 +21,34 @@
 
         <Button
             android:id="@+id/btnCapture"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="拍照"
+            android:textColor="@color/white"
+            android:textSize="14sp"
             android:background="@drawable/capture_button"
-            android:layout_marginEnd="16dp" />
+            android:layout_marginEnd="12dp" />
 
         <Button
             android:id="@+id/btnRecord"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:background="@drawable/record_button" />
-    </LinearLayout>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="录像"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/record_button"
+            android:layout_marginEnd="12dp" />
 
-    <TextView
-        android:id="@+id/tvAnalysis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="分析结果: --"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:background="@color/black"
-        android:padding="8dp"
-        android:alpha="0.7"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_margin="16dp" />
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="暂停"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/pause_button"
+            android:visibility="gone" />
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/ivPreview"
